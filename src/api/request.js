@@ -2,7 +2,7 @@ import axios from 'axios'
 import { ElMessage } from 'element-plus'
 
 const request = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://demo01-222374-8-1400573097.sh.run.tcloudbase.com/api',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json'
